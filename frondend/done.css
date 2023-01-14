@@ -1,0 +1,83 @@
+.headsearch{
+    background-color: black;
+    height: 70px;
+    width:100%;
+}
+.searchbar{
+margin-left: 20%;
+height: 25px;
+width: 220px;
+margin-top: 20px;
+border: 5px;
+border-radius: 10px;
+text-align: center;
+}
+span{
+    color:yellow;
+    font-size: 30px;
+    margin-left: 40%;
+}
+tr, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    color: white;
+    background-color:#2e0e5f;
+  }
+  tr:nth-child(odd) {
+    color: white;
+    background-color:#2e0e5f;
+  }
+  #table2
+{
+    margin-left: 20%;
+}
+.viewsongs:hover {
+    color:blue;
+    background-color: black;
+  }
+  .delete{
+    background-color:hotpink;
+    border-color: white;
+    margin-left: 5px;
+  }
+  .update{
+    background-color:hotpink;
+    border-color: white;
+    margin-left: 5px;
+  }
+  .playlist
+  {
+width: 300px;
+height: 40px;
+border: 2px solid black;
+border-radius: 5px;
+margin-left:20% ;
+text-align: center;
+font-size: 20px;
+font-weight: 20px;
+  }
+ .createplaylist{
+  width: 80px;
+height: 40px;
+border: 2px solid;
+border-radius: 10px;
+text-align: center;
+font-size: 15px;
+font-weight: 20px;
+/* background-color: blue; */
+ }
+ .createplaylist:hover {
+  color:blue;
+  background-color: black;
+}
+.exitplaylist{
+  margin-left:20% ;
+}
+
+#table4
+{
+  margin-left: 20%;
+}

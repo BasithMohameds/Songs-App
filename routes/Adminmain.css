@@ -1,0 +1,83 @@
+ tr, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    color: white;
+    background-color:#2e0e5f;
+  }
+  tr:nth-child(odd) {
+    color: white;
+    background-color:#2e0e5f;
+  }
+  td{
+    border: 1px solid !important;
+  }
+  .delete{
+    background-color:blue;
+    border-color: white;
+    margin-left: 13px;
+  }
+  .viewdata:hover {
+    color:blue;
+    background-color: black;
+  }
+  .viewsongs:hover {
+    color:blue;
+    background-color: black;
+  }
+  .heading{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+  }
+  span{
+    color: yellow;
+    font-size: 30px;
+    margin-left:45%;
+  }
+#table
+{
+    margin-left: 130px;
+}
+#table2
+{
+    margin-left: 130px;
+}
+.addnewsongs{
+    color: black;
+    /* background-color: black; */
+    width: fit-content;
+    font-size: 30px;
+}
+.formcls{
+	text-align: center;
+	margin-top: 30px;
+	border: 5px solid white;
+	border-radius: 20px;
+	width: 400px;
+	height: 450px;
+	padding:2px;
+	margin-left: 400px;
+	background-color: #2e0e5f ;
+    color: white;
+}
+input{
+	height: 20px;
+	width: 250px;
+	border: 10px;
+	border-radius: 5px;
+	text-align:left;
+	padding: 10px;
+}
+.submitsong{
+	
+	width: 100px;
+	background-color: gray;
+    height: 20px;
+}
+.submitsong:hover {
+    color:blue;
+    background-color: black;
+  }
